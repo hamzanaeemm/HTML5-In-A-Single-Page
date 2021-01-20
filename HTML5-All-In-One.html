@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+	<!--	<script src="mp.js"></script>
+		<script type="text/javascript">
+			document.onmouseup=getXYPosition;
+		</script> -->
+		<style>
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th, td {
+				padding: 5px;
+				text-align: left;    
+			}
+</style>
+	</head>
+	<body>
+		<h1 id="h1" style="color:Blue" align="center">THIS IS MY HTML5 <u>ALL-IN-ONE</u> REVISION CODE</h1>
+		<h3 style="color:red">THESE ARE HEADER TAGS h1-h6</h3>
+		<h1>This is header h1</h1>
+		<h2>This is header h2</h2>
+		<h3>This is header h3</h3>
+		<h4>This is header h4</h4>
+		<h5>This is header h5</h5>
+		<h6>This is header h6</h6>
+		<hr>
+		<h3 style="color:red">THIS IS A PARAGRAPH</h3>
+		<p>Paragraph tag is used to write plain text.</p>
+		<p>Paragraph tag can also be used to write text on multiple lines by putting multiple 'p-tags' on different lines</p>
+		<br><p><b>Preserve tag &lt;pre&gt;:</b></p>
+		<pre>
+			This is &lt;pre&gt; tag
+			that is just like &lt;p&gt; tag
+			but it preserves line breaks automatically.
+		</pre>
+		<hr>
+		<h3 style="color:red">THESE ARE LINKS</h3>
+		<p>This is absolute anchor linking i.e. linking to another webpage/URL:</p>
+		Target= _blank: <a target="_blank" href="http://www.google.com">Click here to go to google.com</a><br>
+		<p>This is relative anchor linking i.e. linking to a local server resource, webpage etc:</p>
+		Target= _self: <a target="_self" href="PractiseCode.html">1. Click here to go to PractiseCode.html local webpage</a><br>
+		Target= _parent:<a target="_parent " href="#t1">2. Click here to go to table</a><br>
+		Target= _top:<a target="_top " href="#f1">3. Click here to go to form</a>
+		<br><br>
+		<button onclick="window.open('PractiseCode.html', '_blank'); return false;">Open PractiseCode</button>
+		<p>Use <code>onclick="window.open('PractiseCode.html', '_blank'); return false;" </code> to open button link in new tab</p>
+		<hr>
+		<h3 style="color:red">THIS IS A line break within paragraph tag</h3>
+		<p>Paragraph tag can also be used to write text on<br>multiple lines by putting breaks using br tag</p>
+		<hr>
+		<h3 style="color:red">THIS IS TEXT FORMATTING</h3>
+		<p>This is some <b>bold text</b> within a paragraph tag</p>
+		<p>This is a <strong>Strong/bold text</strong> using 'strong' tag within a paragraph tag</p>
+		<p>This is <i>italic text</i> using 'i' tag within a paragraph tag</p>
+		<p>This is some <em>emphasized/italic text</em> using 'em' tag within a paragraph tag</p>
+		<p>This is <u>underlined text</u> using 'u' tag within a paragraph tag</p>
+		<p>This is some <ins>inserted/underlined text</ins> using 'ins' tag within a paragraph tag</p>
+		<p>This is a <sup>Superscript</sup> within a paragraph tag</p>
+		<p>This is a <sub>Subscript</sub> within a paragraph tag</p>
+		<p>This is a <del>Deleted text</del> within a paragraph tag</p>
+		<p>This is some <mark>marked text</mark> within a paragraph tag</p>
+		<p>This is <small>Small text</small> within a paragraph tag</p>
+		<p>This is <blockquote>blockquote</blockquote> within a paragraph tag. It defines a section that is quoted from another source.</p>
+		<p>This is <abbr>abbreviation</abbr> within a paragraph tag</p>
+		<p>This is address<address>"In Der Rothenlange 8, 56070 Koblenz Germany"</address> within a paragraph tag</p>
+		<p>This is <bdo dir="rtl">'Bi-directional right to left text'</bdo> within a paragraph tag</p>
+		<p>This is <bdo dir="ltr">'Bi-directional left to right text'</bdo> within a paragraph tag</p>
+		
+		<hr>
+		<h3 style="color:red">THESE ARE UN-ORDERED LISTS</h3>
+		<ul>
+			<p>List with default formatting:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<br>
+		<ul style="list-style-type:disc;">
+		<p>List with dics style:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<br>
+		<ul style="list-style-type:circle;">
+			<p>List with circle style:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<br>
+		<ul style="list-style-type:square;">
+			<p>List with square style:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<br>
+		<ul style="list-style-type:none;">
+			<p>List with none style:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<br>
+		<hr>
+		<h3 style="color:red">THESE ARE ORDERED LISTS</h3>
+		<ol>
+			<p>List with default formatting:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ol>
+		<br>
+		<ol start="5">
+			<p>List with custom start number:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ol>
+		<br>
+		<ol reversed>
+			<p>Reversed order list:</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ol>
+		<br>
+		<ol type="A">
+			<p>List with type 'A-Capital Alphabet':</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ol>
+		<br>
+		<ol type="a">
+			<p>List with type 'a-Small Alphabet':</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ol>
+		<br>
+		<ol type="I">
+			<p>List with type 'I-big Roman numbers':</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ol>
+		<br>
+		<ol type="i">
+			<p>List with type 'i-Small Roman numbers':</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ol>
+		<br>
+		<ol type="1">
+			<p>List with type '1-Numbers':</p>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ol>
+		<hr>
+		<h3 style="color:red">THIS IS A NESTED LIST</h3>
+		<li type="1">ABC
+			<ul style="list-style-type:circle;">
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+				<li>Item 4</li>
+			</ul>
+		</li>
+		<hr>
+		<h3 style="color:red">THESE ARE IMAGES using 'img-tag'</h3>
+		<p>This is a simple image:</p>
+		<img src="boy.png" alt="Boy Image" style="width:100px;height:100px" usemap="#map1"></img><br>
+		<p><b>This is an image map. Click desired area of the image below:</b></p>
+		<img src="boy.png" alt="Boy Image" style="width:300px;height:300px" ></img>
+		<map name="map1">
+			<area shape="circle" coords="54,3221,50" alt="abc" href="PractiseCode.html" >
+		</map>
+		<p>This is a responsive image</p>
+		<img src="boy.png" style="width:100%; height:auto">
+		<p>This is a Picture</p>
+		<picture>
+			<source srcset="boy.png" media="max-width:600px">
+			<source srcset="boy.png" media="max-width:1200px">
+			<source srcset="boy.png" media="max-width:3000px">
+			<img src="boy.png" alt="boy">
+		</picture>
+		<hr>
+		<h3 style="color:red">THESE ARE HTML TABLES</h3>
+		<p>This is a simple table</p>
+		<table id="t1">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>City</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>BMW</td>
+					<td>Germany</td>
+				</tr>
+				<tr>
+					<td>Mercedees</td>
+					<td>Germany</td>
+				</tr>
+				<tr>
+					<td>Ferrari</td>
+					<td>Italy</td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br>
+		<table>
+		<caption>This is an html table with colspan '2'</caption>
+			<thead>
+				<tr>
+					<th >City</th>
+					<th colspan="2">Country</th>
+				<tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td >Doha</td>
+					<td>Qatar</td>
+					<td>Germany</td>
+				<tr>
+				<tr>
+					<td>Koblez</td>
+					<td>Germany</td>
+					<td>Germany</td>
+				<tr>
+				<tr>
+					<td>Khanewal</td>
+					<td>Pakistan</td>
+					<td>Germany</td>
+				<tr>
+			<tbody>
+		</table>
+		<br><br>
+		<table>
+		<caption>This is an html table with rowspan '3'</caption>
+			<thead>
+				<tr>
+					<th >Country</th>
+					<td>Germany</th>
+				<tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th rowspan="3">City</th>
+					<td>Koblenz</td>
+				</tr>
+				<tr>
+					<td>Stuttgard</td>
+				</tr>
+				<tr>
+					<td>Berlin</td>
+				</tr>
+			<tbody>
+		</table>
+		<hr>
+		<h3 style="color:red">THESE ARE HTML FORMS</h3>
+		<form id="f1">
+			<p>First Name   <input type="text" placeholder="Enter your first name"></p>
+			<p>Last Name    <input type="text" placeholder="Enter your last name"></p>
+			<p>Email        <input type="text" placeholder="Enter your Email"></p>
+			<p>Password	    <input type="text" placeholder="Enter your Password"></p>
+			<p>Remember me	    <input type="checkbox" value="c1" checked></p>
+			<p>Select Date:    <input type="date" id="dt" name="date1"></p>
+			<p><b>I am:</b><br>
+			Under 18:<input type="radio" value="u18" name="age"><br>
+			Over 18:<input type="radio"  value="o18" name="age">
+			</p>
+			<p>Select your brand:
+			<select>
+				<option selected>Select</option>
+				<option >BMW</option>
+				<option >Mercedees</option>
+				<option >Ferrari</option>
+			</select>
+			</p>
+			<input type="button" onclick="Submit" value="Submit">
+		</form>
+		<br>
+		<form>
+			<fieldset>
+				<Legend>Contact Information</legend>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="cname"><br><br>
+				<label for="phno">Phone Number</label>
+				<input type="number" id="phoneno" name="phonenumber"><br><br>
+				<label for="email">Email</label>
+				<input type="email" id="eid" name="emailid"><br><br>
+				<label for="Address">Address</label>
+				<input type="address" id="addr" name="addres"><br><br>
+				<input type="submit" value="submit">
+			</fieldset>
+		</form>
+		<hr>
+		<h3 style="color:red">THESE ARE HTML ENTITIES</h3>
+		<b>Format: & <i>entitity</i> ;</b><br><br>
+		nbsp - no breaking space. &nbsp;<br>
+		lt - Less than.... &lt;<br>
+		gt - Greater than... &gt;<br>
+		amp - Ampercent... &amp;<br>
+		quot - quotation marks... &quot;<br>
+		apos - single quotation mark... &apos;<br>
+		cent - cent sign... &cent;<br>
+		pound - pound sign... &pound;<br>
+		yen - yen sign... &yen;<br>
+		euro - euro sign... &euro;<br>
+		copy - copyrights sign... &copy;<br>
+		reg - Registered sign... &reg;<br>
+		<hr>
+		<h3 style="color:red">THESE ARE HTML iFRAMES</h3>
+		<p>Absolute iframe to include website through URL</p>
+		<iframe src="http://www.google.com"></iframe><br>
+		<p>Absolute iframe to include videos from other webpage through URL</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/7viR3P6jeRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<p>Relative iframe to include Local webpage</p>
+		<iframe src="practiseCode.html" style="width:560px; height:400px;" frameborder="5"></iframe><br>
+		<hr>
+		Use <i>mailto</i> inside the <i>href</i> attribute to create a link that opens the user's email program.<br>
+		Mailto: <a href="mailto:hamzak63710@gmail.com">Hamza</a>
+		<hr>
+		<h3 style="color:red">THESE ARE BLOCK LEVEL ELEMENTS</h3>
+		Address<address style="border: 1px solid black">In Der Rothenlange 8 56070 Koblenz Germany</address><br>
+		Article<article style="border: 1px solid black">This is an article block</article><br>
+		Aside<aside style="border: 1px solid black">This is aside</aside><br>
+		Blockquote<blockquote cite="http://www.google.com">
+		This is a blockquote to 
+		quote the text from a website
+		it automatically pads the the quotes text
+		on a space from the other text area.
+		</blockquote><br>
+		Navigation bar: <nav>
+		<a href="http://www.google.com">Home</a>
+		<a href="http://www.google.com">Account</a>
+		<a href="http://www.google.com">Support</a>
+		<a href="http://www.google.com">Sign Up</a>
+		</nav>
+		<hr>
+		<h3 style="color:red">THESE ARE INLINE ELEMENTS</h3>
+		<hr>
+		<h3 style="color:red">THESE ARE SOME HTML TAGS</h3>
+		<p><b>This is a keyboard input tag</b></p>
+		<p>Press <kbd>Ctrl + S</kbd> to save the document</p>
+		<p><b>This is a text message formatting tag</b></p>
+		<p><samp>kjdfskdrfh sjdrfbesurfiu srbfilserbf sjhfbrliserf sjlerfbiesurf jrbfiuer</samp></p>
+		<p><b>This is a variable tag</b></p>
+		<p>Addition <var>x</var> + <var>y</var> is the main result</p>
+		<hr>
+		<h3 style="color:red">THESE ARE SEMANTIC AND NON SEMANTIC ELEMENTS</h3>
+		<h4>Semantic Elements</h4>
+		<pre>
+		Provide information about their content. 
+		e.g. &lt;form&gt; , &lt;table&gt; , &lt;article&gt; etc
+		</pre>
+		<h4>Non-Semantic Elements</h4>
+		<pre>
+		Do not provide information about their content. 
+		e.g. &lt;div; , &lt;span&gt; etc
+		</pre>
+		<a href="#h1">Goto Top</a>
+	<!--<a href="#" id="xyLink" onfocus="toggleXY();" accesskey="z"></a> -->
+	</body>
+</html>
