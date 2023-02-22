@@ -26,7 +26,6 @@ jobs:
                   key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
             - name: Make envfile
               uses: SpicyPizza/create-envfile@v1.3
-
             - name: Install Utilities
               run: |
                   sudo apt-get update
