@@ -13,11 +13,11 @@
     },
     "publicEndpoint": {
         "containerName": "app",
-        "containerPort": 3000,
+        "containerPort": 3002,
         "healthCheck": {
-            "healthThreshold": 2,
-            "unhealthThreshold": 2,
-            "timeoutseconds": 15,
+            "healthyThreshold": 2,
+            "unhealthyThreshold": 2,
+            "timeoutSeconds": 15,
             "intervalSeconds": 20,
             "path": "/",
             "successCodes": "200-499"
