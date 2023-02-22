@@ -1,12 +1,12 @@
-FROM --platform=linux/amd64 node:16-alpine
+FROM  --platform=linux/amd64 node:16-alpine
 LABEL maintainer = "https://github.com/hamzanaeemm"
 WORKDIR /app
 COPY . .
 
-RUN npm cache clean
-RUN npm cache verify
-RUN npm i -g pm2
-RUN npm run build
+# RUN npm cache clean
+# RUN npm cache verify
+# RUN npm i -g pm2
+# RUN npm run build
 
 FROM nginx:stable-alpine
 COPY --from=build /app/build /usr/share/nginx/html/
